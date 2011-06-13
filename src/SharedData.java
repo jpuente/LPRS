@@ -1,12 +1,11 @@
 /**
- * Example showing race condition in concurrent access 
- * to shared data.
+ * Example showing race condition in concurrent access to shared data.
  * @author jpuente
  */
 public class SharedData {
 	
 	/**
-	 * shared data field
+	 * Shared data field.
 	 */
 	static long count = 0;
 	
